@@ -43,14 +43,21 @@
    text-align: center;
    padding-bottom: 3vh;
    padding-top: 3vh;
-
+/*
         background: rgba( 221, 17, 20, 0.8 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 4px );
         -webkit-backdrop-filter: blur( 4px );
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 ); 1px solid rgba( 255, 255, 255, 0.18 );
-  }
+*/
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 ); 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
 
   #rdjris .card{
     margin-top: 2vh;

@@ -62,6 +62,12 @@
 
     width: 80%;
 
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    text-align: center; 
+    display: flex;
+    align-items: center; /* Centra verticalmente el texto */
+
     display: grid;
     grid-template-columns: 40% 60%;
 
@@ -88,6 +94,10 @@
   #grupoScout{
 
     width: 80%;
+    margin: 0 auto;
+    text-align: center; 
+
+
     /*background: rgba( 248, 231, 28, 0.85 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7px );
@@ -104,5 +114,12 @@
 
   }
 
+
+  #contactos{
+
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
 
   

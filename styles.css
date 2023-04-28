@@ -88,12 +88,18 @@
   #grupoScout{
 
     width: 80%;
-    background: rgba( 248, 231, 28, 0.85 );
+    /*background: rgba( 248, 231, 28, 0.85 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7px );
     -webkit-backdrop-filter: blur( 7px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+*/
+    background-image: url("static/fondo2.png");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(100px) ;
+    
 
 
   }
